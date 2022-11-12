@@ -2,7 +2,5 @@
 
       - hosts : localhost 
         gather_facts : true 
-        user: root
-        become : false 
         roles : 
            - {role : docker-registry }
