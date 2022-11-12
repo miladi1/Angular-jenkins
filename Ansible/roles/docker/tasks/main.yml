@@ -2,7 +2,7 @@
   docker_image : 
     name : devops 
     build : 
-     path : /var/lib/jenkins/workspace/devops
+     path : /var/lib/jenkins/workspace/Mypipeline2
      pull : no 
     source : build 
     state : present 
@@ -10,7 +10,7 @@
 - name : run container docker 
   docker_container : 
     name : myapp_container 
-    image : devops:latest 
+    image : Mypipeline2:latest 
     state : started 
     recreate : true 
     ports : 
