@@ -8,7 +8,7 @@ pipeline {
                     checkout([$class: 'GitSCM' , branches: [[name: '*/master']] ,
                        userRemoteConfigs: [[
                            credentialsId: 'Githubcredentials',
-                           url :'https://github.com/Zeroxcharisma/Angular.git']]])
+                           url :'https://github.com/Zeroxcharisma/Angular2.git']]])
                 }
             
             }
