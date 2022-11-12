@@ -4,4 +4,4 @@
    - name : adding tag to image 
      command : docker tag devops:latest zeroxcharisma/devops:latest
    - name : push image to dockerhub 
-     command : docker push zeroxcharisma/devops
+     command : docker push zeroxcharisma/devops:latest
