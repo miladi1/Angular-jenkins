@@ -17,7 +17,7 @@ pipeline {
        //     steps {
          //       script{
            //         
-                    sh "ansible-playbook Ansible/build.yml -i Ansible/inventory/host.yml -e ansible_become_password=root "
+                 //   sh "ansible-playbook Ansible/build.yml -i Ansible/inventory/host.yml -e ansible_become_password=root "
              //   }}}
       //stage('Build 2 ') {
         //    steps {
